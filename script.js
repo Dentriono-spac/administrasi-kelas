@@ -1,4 +1,3 @@
-```javascript
 // ======================================
 // ADMINISTRASI KELAS
 // SCRIPT UTAMA
