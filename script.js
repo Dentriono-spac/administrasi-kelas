@@ -6,28 +6,28 @@
 
 // Membuka aplikasi Absensi QR
 function bukaAbsensi() {
-
-  window.location.href =
-    "https://dentriono-spac.github.io/absensi-qr-sekolah/";
-
+  window.open(
+    "https://dentriono-spac.github.io/absensi-qr-sekolah/",
+    "_blank"
+  );
 }
 
 
 // Membuka aplikasi Perpustakaan
 function bukaPerpustakaan() {
-
-  window.location.href =
+  window.open(
     "https://dentriono-spac.github.io/perpustakaan-sekolah/";
-
+    "_blank"
+  );
 }
 
 
 // Membuka Portofolio TRIONO, S.Pd.
 function bukaPortofolio() {
-  
-  window.location.href =
+    window.open(
     "https://sites.google.com/guru.sd.belajar.id/dentriono/";
-  
+    "_blank"
+  );
 }
 
 // Menu yang belum dibuat
