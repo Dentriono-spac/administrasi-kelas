@@ -26,7 +26,7 @@ function bukaPerpustakaan() {
 function bukaPortofolio() {
   
   window.location.href =
-    "https://sites.google.com/guru.sd.belajar.id/dentriono";
+    "https://sites.google.com/guru.sd.belajar.id/dentriono/";
   
 }
 
