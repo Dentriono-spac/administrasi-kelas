@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Administrasi Kelas</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header-icon">🏫</div>
+    <h1>ADMINISTRASI KELAS</h1>
+    <p>Sistem Administrasi Kelas Digital</p>
+  </header>
+
+  <main class="container">
+
+    <div class="info-box">
+      <h2>👋 Selamat Datang</h2>
+      <p>
+        Pusat administrasi wali kelas untuk mengelola
+        data siswa, absensi, perpustakaan dan laporan kelas.
+      </p>
+    </div>
+
+    <div class="menu-grid">
+
+      <button class="menu-card" onclick="bukaAbsensi()">
+        <div class="menu-icon">📷</div>
+        <h3>Absensi QR</h3>
+        <p>Absensi siswa menggunakan QR Code</p>
+      </button>
+
+      <button class="menu-card" onclick="bukaPerpustakaan()">
+        <div class="menu-icon">📚</div>
+        <h3>Perpustakaan</h3>
+        <p>Peminjaman dan pengembalian buku</p>
+      </button>
+
+      <button class="menu-card" onclick="menuBelumTersedia('Data Siswa')">
+        <div class="menu-icon">👨‍🎓</div>
+        <h3>Data Siswa</h3>
+        <p>Database siswa kelas</p>
+      </button>
+
+      <button class="menu-card" onclick="menuBelumTersedia('Rekap Absensi')">
+        <div class="menu-icon">📊</div>
+        <h3>Rekap Absensi</h3>
+        <p>Rekap kehadiran siswa</p>
+      </button>
+
+      <button class="menu-card" onclick="menuBelumTersedia('Jadwal Pelajaran')">
+        <div class="menu-icon">📅</div>
+        <h3>Jadwal Pelajaran</h3>
+        <p>Jadwal kegiatan pembelajaran</p>
+      </button>
+
+      <button class="menu-card" onclick="menuBelumTersedia('Catatan Siswa')">
+        <div class="menu-icon">📝</div>
+        <h3>Catatan Siswa</h3>
+        <p>Catatan perkembangan siswa</p>
+      </button>
+
+      <button class="menu-card" onclick="menuBelumTersedia('Laporan Kelas')">
+        <div class="menu-icon">📈</div>
+        <h3>Laporan Kelas</h3>
+        <p>Laporan administrasi kelas</p>
+      </button>
+
+      <button class="menu-card ai-card" onclick="menuBelumTersedia('AI Asisten')">
+        <div class="menu-icon">🤖</div>
+        <h3>AI Asisten</h3>
+        <p>Asisten cerdas wali kelas</p>
+      </button>
+
+    </div>
+
+  </main>
+
+  <footer>
+    Administrasi Kelas Digital
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
