@@ -3,7 +3,6 @@
 // SCRIPT UTAMA
 // ======================================
 
-
 // Membuka aplikasi Absensi QR
 function bukaAbsensi() {
   window.open(
@@ -11,7 +10,6 @@ function bukaAbsensi() {
     "_blank"
   );
 }
-
 
 // Membuka aplikasi Perpustakaan
 function bukaPerpustakaan() {
@@ -21,7 +19,6 @@ function bukaPerpustakaan() {
   );
 }
 
-
 // Membuka Portofolio TRIONO, S.Pd.
 function bukaPortofolio() {
   window.open(
@@ -29,7 +26,6 @@ function bukaPortofolio() {
     "_blank"
   );
 }
-
 
 // Menu yang belum dibuat
 function menuBelumTersedia(namaMenu) {
@@ -39,4 +35,3 @@ function menuBelumTersedia(namaMenu) {
     "Nanti akan kita sambungkan ke sistem Administrasi Kelas."
   );
 }
-```
