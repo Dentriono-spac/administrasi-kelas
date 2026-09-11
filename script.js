@@ -21,11 +21,13 @@ function bukaPerpustakaan() {
 
 }
 
+
 // Membuka Portofolio TRIONO, S.Pd.
 function bukaPortofolio() {
   
   window.location.href =
     "https://sites.google.com/guru.sd.belajar.id/dentriono";
+  
 }
 
 // Menu yang belum dibuat
